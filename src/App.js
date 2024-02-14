@@ -25,6 +25,8 @@ function App({name}) {
     </Card>
 
       <p>Hello, {myname}</p>
+      {myname ? <p>Voila mon image</p> : ""}
+      {myname ?  <Image imageUrl={"logo192.png"} altText={""}/> : ""}
     </div>
   );
 }
